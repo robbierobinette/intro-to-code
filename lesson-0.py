@@ -26,27 +26,43 @@ print("Hello World.")
 # instructions also have these things.  Uncomment the line below and see what happens.  To uncomment it means to
 # delete the '# ' at the beginning of the line.
 
-# print(hello world)
+# print(Hello world.)
 
 # what happened?  did you see the red?  That means that python does not like it and that it won't run.  If you try
 # to run it you will get an error (or 3!).
 
+# you need to use the quotes to tell python that it's a string and not something else.  Go ahead and comment out that
+# line above with the red underlines, (I call that ketchup, if you've got ketchup it won't run.)
 
+# The next concept is a variable.  You can think of a variable as a named spot you can put something, kind of like
+# a chest in minecraft but you can only put one thing in it.
+# The lines below use a variable to do the same thing as at the beginning. print() looks at the value of the variable
+# it is passed and will print that.
 
-a = "this is a string"
-# this is also a string, NOT a number, or more specifically an integer.  When you add strings together you
-# connect them end-to-end, that's called concatinating.   To add them together you would use b + b.
-# you cannot "divide" strings b/b has no meaning in when b contains a string and will generate an error
+# uncomment the lines below and see what happens when you run this.  (Make sure you have fixed the ketchup above.)
+
+a = "Hello World."   # leave this line because you'll need it below
+# print(a)
+
+# did it print out "Hello world."?  did it do it twice?  Why twice?  You can comment out the earlier stuff as you
+# go so that it doesn't get run again.  Hint, putting a '#' at the beginning of a line will comment that line out.
+
+# A few more things about strings:  Strings can contain letters, numbers, spaces and punctuation.  A string
+# that contains only numbers is NOT a number, it's just a string with some numbers in it. When you add strings
+# together you connect them end-to-end, that's called concatinating.   To add them together you would use b + b.
+# you cannot "divide" strings b/b has no meaning in when b contains a string and will generate an error.
+# let's practice a bit:
+
+# uncomment these lines to see what happens
 b = "2"
+# print(b + b)
 
 # this is the integer 2 and that's a lot different from the string "2".  You can add, subtract, multiply and
 # divide integers. integers are whole numbers!  there is not fractional part.  if you assign 2.9 to an integer
 # you get 2, note that you get 2 and not 3, it doesn't round the number to the nearest integer, it discards
 # or truncates the fractional part.
 c = 2
-
-# uncomment this line and run it, see if it does what you think it will do
-# print("this is a string")
+# print(c + c)
 
 # or you can do this, printing the variable that contains the value "this is a string"
 # uncomment this line and run it, see if it does what you think it will do
@@ -73,4 +89,12 @@ c = 2
 # think about the difference between b + b and c + c
 
 
-# now write a little program (probably one or two lines) that will print out "hello world"
+# try this!!!
+h = "Hello"
+w = "world"
+
+print(h + " " + w + ".")
+
+
+# ok, now write a little program (probably one or two lines) that will print out "hello world"
+# maybe try a couple of variations, using string concatination.
