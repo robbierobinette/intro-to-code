@@ -49,7 +49,7 @@ a = "Hello World."   # leave this line because you'll need it below
 
 # A few more things about strings:  Strings can contain letters, numbers, spaces and punctuation.  A string
 # that contains only numbers is NOT a number, it's just a string with some numbers in it. When you add strings
-# together you connect them end-to-end, that's called concatinating.   To add them together you would use b + b.
+# together you connect them end-to-end, that's called concatenating.   To add them together you would use b + b.
 # you cannot "divide" strings b/b has no meaning in when b contains a string and will generate an error.
 # let's practice a bit:
 
@@ -97,4 +97,4 @@ print(h + " " + w + ".")
 
 
 # ok, now write a little program (probably one or two lines) that will print out "hello world"
-# maybe try a couple of variations, using string concatination.
+# maybe try a couple of variations, using string concatenation.
