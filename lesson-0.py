@@ -4,9 +4,9 @@
 # computers things start with zero, not one.
 
 # A couple of details before we get going, at various times I'll suggest that you "run" the program.  To do that you
-# can use the right mouse button to pop up a menu and select the "run lesson-0.py" item about 2/3's of the way down.
-# After the first time you've run a file you can re-run that file using the green triangle/arrow in the upper right
-# corner.
+# can use the right mouse button (or control-click on a trackpad) to pop up a menu and select the "run lesson-0.py"
+# item about 2/3's of the way down. After the first time you've run a file you can re-run that file using the green
+# triangle/arrow in the upper right corner.
 
 
 # The first thing we are going to do is the legendary first program done in many programming languages: "Hello world."
@@ -41,7 +41,7 @@ print("Hello World.")
 
 # uncomment the lines below and see what happens when you run this.  (Make sure you have fixed the ketchup above.)
 
-a = "Hello World."   # leave this line because you'll need it below
+a = "Hello World."  # leave this line because you'll need it below
 # print(a)
 
 # did it print out "Hello world."?  did it do it twice?  Why twice?  You can comment out the earlier stuff as you
@@ -94,7 +94,6 @@ h = "Hello"
 w = "world"
 
 print(h + " " + w + ".")
-
 
 # ok, now write a little program (probably one or two lines) that will print out "hello world"
 # maybe try a couple of variations, using string concatenation.
