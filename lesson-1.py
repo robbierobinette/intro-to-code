@@ -1,7 +1,7 @@
 # This lesson will cover some mathematical operators in python.  These operators will be needed for the next lesson.
 #
 # uncomment this line and run it:
-# print(7/3)
+# print(7 / 3)
 # what did it print out?  Was that what you expected?
 #
 # re-comment the line above and then uncomment the line below and see what happens.
@@ -24,10 +24,14 @@
 # so, 7 (dividend) divided by 3 (divisor) would yield "2 + 1/3"
 #
 # here is the framework for the function:  (uncomment it and fill it in)
+# the word 'pass' is in the function because when you declare a function you have to have
+# some code within it or python thinks it's an error.  'pass' is just some code that does
+# nothing so that the function isn't completely empty.
 
 # def divide(dividend, divisor):
 #     pass
 #
+# uncomment this to call the function you just wrote.
 # divide(7, 3)
 
 
